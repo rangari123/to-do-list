@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>to-do list</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do-List <img src="To-Do-Img/images/icon.png" alt=""></h2>
+            <!-- Enter section -->
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add Your Taks!">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <!-- task list section -->
+            <ul id="list-container">
+                <!-- <li class="checked">Task1</li>
+                <li>Task1</li>
+                <li>Task1</li> -->
+            </ul>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
